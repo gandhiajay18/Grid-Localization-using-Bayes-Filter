@@ -1,0 +1,5 @@
+<launch>
+        <node name="probab" pkg="lab4" type="probab.py" args="$(find lab4)" output="screen" />
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab4)/scripts/ajay.rviz"/>
+
+</launch>
